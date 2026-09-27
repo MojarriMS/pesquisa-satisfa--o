@@ -1,39 +1,36 @@
-Pesquisa de Satisfação - TudoWeb 📊
+📊 Pesquisa de Satisfação - TudoWeb
 
-Projeto desenvolvido como parte da atividade prática da Agenda 8 da disciplina de Desenvolvimento de Sistemas I, focada na aplicação de estruturas de repetição e decisão em Python.
+🧩 Descrição
 
-📝 Descrição do Projeto
+Este projeto foi desenvolvido para automatizar a pesquisa de opinião sobre o atendimento prestado pela empresa de marketing TudoWeb.
 
-A empresa de marketing TudoWeb necessita realizar uma pesquisa de opinião com seus clientes para mensurar o grau de satisfação referente ao atendimento prestado.
+Ele utiliza estruturas de repetição (for e while) e estruturas condicionais (if/elif) para realizar a coleta de dados de forma contínua e garantir a validação das entradas, seguindo os conceitos apresentados na apostila de Estrutura de Repetição.
 
-Este programa em Python coleta as seguintes informações dos clientes:
+🎯 Objetivo
 
-Nome
+Coletar o nome, a idade e a avaliação de atendimento de uma amostragem de clientes.
 
-Idade
+Demonstrar o uso de laços de repetição e contadores em Python.
 
-Opinião sobre o atendimento:
+Validar a entrada de dados para aceitar apenas opções válidas.
 
-1: EXCELENTE
+Exibir a contagem consolidada das avaliações EXCELENTE e RUIM.
 
-2: BOM
+⚙️ Funcionalidades
 
-3: RUIM
+Registro de Clientes: Coleta do nome e idade de cada entrevistado.
 
-Ao final do ciclo de entrevistas, o sistema processa e exibe em tela:
+Menu Interativo de Avaliação:
 
-Quantidade total de respostas EXCELENTE
+1 ➔ EXCELENTE
 
-Quantidade total de respostas RUIM
+2 ➔ BOM
 
-🛠️ Tecnologias Utilizadas
+3 ➔ RUIM
 
-Linguagem: Python 3.x
+Validação de Entrada: Impede o avanço do programa até que o usuário digite uma opção válida (1, 2 ou 3).
 
-Estruturas de Repetição: for (para o controle do total de entrevistados) e while (para validação de dados)
-
-Estruturas Condicionais: if, elif, else
-
+Contagem Automática: Soma os totais das respostas para a emissão do relatório final.
 🚀 Como Executar o Projeto
 
 Certifique-se de ter o Python instalado em sua máquina.
